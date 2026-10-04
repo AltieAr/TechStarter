@@ -1,0 +1,4 @@
+Nama : Surya prasetya
+NIM : 2604028
+Bukti : Project berhasil dipulihkan dari remote repository
+Penjelasan : File ini dibuat dari working copy hasil clone pada Pertemuan 4.
