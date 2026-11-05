@@ -1,72 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechStarter Day</title>
+    <title>TechStarter Day 2026</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <p>PROJECT APLIKASI WEB</p>
-        <h1>TechStarter Day 2026</h1>
-        <p>Dari Pengguna Menjadi Pembuat Teknologi</p>
+        <div class="container">
+            <p>PROJECT APLIKASI WEB</p>
+            <h1>TechStarter Day 2026</h1>
+            <p>Dari Pengguna Menjadi Pembuat Teknologi</p>
 
-        <nav aria-label="Navigasi utama">
-                <a href="#tentang">Tentang</a>
-                <a href="#agenda">Agenda</a>
-                <a href="#manfaat">Manfaat</a>
-                <a href="#kontak">Kontak</a>
-        </nav>
+            <nav class="site-nav" aria-label="Navigasi utama">
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#manfaat">Manfaat</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <main >
+    <main class="container">
         <section id="tentang">
-            <h2> Tentang TechStarter Day</h2>
+            <h2>Tentang TechStarter Day</h2>
             <p class="highlight">
-                TechStarter Day adalah kegiatan pengenalan dunia pengembangan web untk mahasiswa baru teknologi informasi.
-
+                TechStarter Day adalah kegiatan pengenalan dunia pengembangan web untuk mahasiswa baru Teknologi Informasi.
             </p>
-            <article class="card">
-                <h3>Tujuan Kegiatan</h3>
-                <p>
-                    peserta mengenal cara developer menyusun informasi, menggunakan tools, membaca error, dan membangun sesuatu secara bertahap.
-                </p>
-            </article>
+            <div class="card-list">
+                <article class="card">
+                    <h3>Tujuan Kegiatan</h3>
+                    <p>
+                        Peserta mengenal cara developer menyusun informasi, menggunakan tools, membaca error, dan membangun sesuatu secara bertahap.
+                    </p>
+                </article>
+            </div>
         </section>
     
         <section id="agenda">
-            <h2>
-                <ol>
-                    <li>Mengenal cara kerja halaman web</li>
-                    <li>Menyusun struktur HTML semantic </li>
-                    <li>Mencoba DevTools dan debugging</li>
-                    <li>Menyimpan checkpoint dengan Git</li>
-                </ol>
-            </h2>
+            <h2>Agenda</h2>
+            <ol class="agenda-list">
+                <li>Mengenal cara kerja halaman web</li>
+                <li>Menyusun struktur HTML semantic</li>
+                <li>Mencoba DevTools dan debugging</li>
+                <li>Menyimpan checkpoint dengan Git</li>
+            </ol>
         </section>
    
         <section id="manfaat">
-            <h2>Apa yang akan di pelajari?</h2>
-                <figure>
-                    <img src="assets/images/Lab-Komputer.jpeg" alt="FOTO LAB">
-                    <figcaption>Praktik dimulai dari memahami alat dan struktur sebelum mengejar tampilan.</figcaption>
-                </figure>
+            <h2>Apa yang Akan Dipelajari?</h2>
+            <figure>
+                <img src="assets/images/Lab-Komputer.jpeg" alt="Mahasiswa sedang berlatih pengembangan web di laboratorium komputer">
+                <figcaption>Praktik dimulai dari memahami alat dan struktur sebelum mengejar tampilan.</figcaption>
+            </figure>
 
             <ul>
                 <li>Membaca struktur halaman sebagai developer</li>
                 <li>Memilih tag berdasarkan makna konten</li>
-                <li>Menyimpan perkembangan project dengan Git.</li>
+                <li>Menyimpan perkembangan project dengan Git</li>
             </ul>
         </section>
     </main>
 
     <footer id="kontak">
-        <p>Politeknik Gajah Tunggal - Teknologi Informasi</p>
-        <p>Project Aplikasi Web Semester 1</p>
-        <p>Project Aplikasi Web Semester 2</p>
+        <div class="container">
+            <p>Politeknik Gajah Tunggal - Teknologi Informasi</p>
+            <p>Project Aplikasi Web Semester 1</p>
+        </div>
     </footer>
-    
-  
 </body>
 </html>
